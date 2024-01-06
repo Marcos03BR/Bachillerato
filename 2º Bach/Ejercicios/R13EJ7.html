@@ -1,0 +1,27 @@
+<html>
+<head>
+
+    <title>Ejercicio 4</title>
+
+</head>
+<body>
+    <script type="text/javascript">
+    
+    function sumarValores() {
+      let suma = 0;
+      for (let i = 1; i <= 5; i++) {
+        let valor = parseInt(prompt(`Ingrese el valor ${i}`));
+        if (!valor) {
+          suma += valor;
+        }
+      }
+      return suma;
+    }
+    
+    let resultado = sumarValores();
+    document.write(resultado);
+    
+    </script>
+    
+</body>
+</html>
